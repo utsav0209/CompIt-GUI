@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="compit.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Button fx:id="huf_zip" mnemonicParsing="false" onAction="#huf_zip" prefHeight="22.0" prefWidth="51.0" text="HZip" />
+      <Button fx:id="huff_unzip" alignment="CENTER_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#huf_unzip" text="HUnzip" GridPane.columnIndex="1" />
+      <Button fx:id="sf_zip" mnemonicParsing="false" onAction="#sf_zip" text="SFZip" GridPane.rowIndex="1" />
+      <Button fx:id="sf_unzip" mnemonicParsing="false" onAction="#sf_unzip" prefHeight="25.0" prefWidth="55.0" text="SFUnzip" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+   </children>
+</GridPane>
